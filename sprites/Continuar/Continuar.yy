@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "MM_Text1",
+  "name": "Continuar",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -10,16 +10,16 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 63,
-  "bbox_right": 1056,
-  "bbox_top": 36,
-  "bbox_bottom": 709,
+  "bbox_left": 1,
+  "bbox_right": 139,
+  "bbox_top": 2,
+  "bbox_bottom": 25,
   "HTile": false,
   "VTile": false,
   "For3D": false,
   "DynamicTexturePage": false,
-  "width": 1280,
-  "height": 720,
+  "width": 143,
+  "height": 28,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -28,12 +28,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0fda53d7-2998-40b6-8ff7-695c172ef5f5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"996cabad-fcba-425c-b790-e202972ae3d4",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "MM_Text1",
+    "name": "Continuar",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -45,7 +45,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"8eba5e81-cfb9-4cc4-be31-6f3c9ce33d62","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0fda53d7-2998-40b6-8ff7-695c172ef5f5","path":"sprites/MM_Text1/MM_Text1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"4b0ae850-9285-4589-9976-552496004226","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"996cabad-fcba-425c-b790-e202972ae3d4","path":"sprites/Continuar/Continuar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
@@ -64,8 +64,7 @@
     "eventStubScript": null,
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"8cebbd34-0121-4247-96cd-18399bbb8481","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Titulo",},
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9d129da7-fc3a-46f1-b127-7c9f83857efd","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"49421d6e-d6f6-4dc6-8a0d-99dae8f2dd4f","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
