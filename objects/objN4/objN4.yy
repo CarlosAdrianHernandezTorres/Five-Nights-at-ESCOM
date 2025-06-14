@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "objN4",
-  "spriteId": {
-    "name": "Noche4",
-    "path": "sprites/Noche4/Noche4.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

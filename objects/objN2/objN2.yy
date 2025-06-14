@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "objN2",
-  "spriteId": {
-    "name": "Noche2",
-    "path": "sprites/Noche2/Noche2.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

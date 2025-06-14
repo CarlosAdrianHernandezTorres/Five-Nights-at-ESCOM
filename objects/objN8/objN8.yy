@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "objN8",
-  "spriteId": {
-    "name": "Noche8",
-    "path": "sprites/Noche8/Noche8.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

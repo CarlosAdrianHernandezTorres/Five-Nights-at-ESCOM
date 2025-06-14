@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "objN6",
-  "spriteId": {
-    "name": "Noche6",
-    "path": "sprites/Noche6/Noche6.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
