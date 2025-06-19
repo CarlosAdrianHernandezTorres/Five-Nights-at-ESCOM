@@ -10,10 +10,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 965,
-  "bbox_right": 1226,
-  "bbox_top": 161,
-  "bbox_bottom": 652,
+  "bbox_left": 1001,
+  "bbox_right": 1262,
+  "bbox_top": 27,
+  "bbox_bottom": 518,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -28,7 +28,7 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9e52b19d-b0b1-4766-b219-ead69294e5e8",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f5a916eb-aaf4-4b11-8842-56065b2928f8",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
@@ -45,7 +45,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"de24351d-d34c-4b8f-8263-574a466d93f9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9e52b19d-b0b1-4766-b219-ead69294e5e8","path":"sprites/spr_TMap_1/spr_TMap_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"4d72a683-a784-4102-b599-22091f92e653","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f5a916eb-aaf4-4b11-8842-56065b2928f8","path":"sprites/spr_TMap_1/spr_TMap_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
@@ -64,11 +64,11 @@
     "eventStubScript": null,
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9b21b97f-cfaa-40b6-b0eb-e1c06199462f","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c5451a84-5310-4896-897e-f55f205001e3","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Mapa",
-    "path": "folders/Sprites/FNaE/Camaras/Mapa.yy",
+    "name": "Mapas",
+    "path": "folders/Sprites/FNaE/Camaras/Mapa/Mapas.yy",
   },
 }

@@ -17,7 +17,7 @@
   "soundFile": "snd_MM.OGG",
   "duration": 71.45073,
   "parent": {
-    "name": "Sonidos",
-    "path": "folders/Sonidos.yy",
+    "name": "Musica",
+    "path": "folders/Sonidos/Musica.yy",
   },
 }

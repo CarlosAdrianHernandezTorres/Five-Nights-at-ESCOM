@@ -20,8 +20,8 @@ SN1 = 1;
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 2EDA2892
-/// @DnDArgument : "steps" "12"
-alarm_set(0, 12);
+/// @DnDArgument : "steps" "21"
+alarm_set(0, 21);
 
 /// @DnDAction : YoYo Games.Sequences.Sequence_Create
 /// @DnDVersion : 1

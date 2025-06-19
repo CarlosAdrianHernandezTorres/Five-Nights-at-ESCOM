@@ -15,9 +15,9 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_Night.ogg",
-  "duration": 4.860708,
+  "duration": 5.130271,
   "parent": {
-    "name": "Sonidos",
-    "path": "folders/Sonidos.yy",
+    "name": "Efectos de Sonido",
+    "path": "folders/Sonidos/Efectos de Sonido.yy",
   },
 }
