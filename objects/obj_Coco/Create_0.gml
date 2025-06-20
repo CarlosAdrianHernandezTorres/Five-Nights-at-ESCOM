@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 57398A61
-/// @DnDInput : 24
+/// @DnDInput : 30
 /// @DnDArgument : "value" "1"
 /// @DnDArgument : "var" "Noche"
 /// @DnDArgument : "var_1" "Cam01"
@@ -27,6 +27,12 @@
 /// @DnDArgument : "var_21" "rotacionvel"
 /// @DnDArgument : "var_22" "Camara"
 /// @DnDArgument : "var_23" "Laser"
+/// @DnDArgument : "var_24" "CameraUp"
+/// @DnDArgument : "var_25" "ShowButton"
+/// @DnDArgument : "var_26" "CUP"
+/// @DnDArgument : "var_27" "CDW"
+/// @DnDArgument : "var_28" "CambioCamara"
+/// @DnDArgument : "var_29" "secLaser"
 global.Noche = 1;
 global.Cam01 = 0;
 global.Cam02 = 0;
@@ -51,3 +57,9 @@ global.CamChng = 0;
 global.rotacionvel = 0;
 global.Camara = 0;
 global.Laser = 0;
+global.CameraUp = 0;
+global.ShowButton = 0;
+global.CUP = 0;
+global.CDW = 0;
+global.CambioCamara = 0;
+global.secLaser = 0;

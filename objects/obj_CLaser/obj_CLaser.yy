@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_CLaser",
   "spriteId": {
-    "name": "spr_CLOff",
-    "path": "sprites/spr_CLOff/spr_CLOff.yy",
+    "name": "spr_CLaser1",
+    "path": "sprites/spr_CLaser1/spr_CLaser1.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,7 +26,7 @@
   "physicsShapePoints": [],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":13,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],

@@ -1,0 +1,11 @@
+x = obj_Culturales1.x + anchorX;
+
+
+
+
+
+
+
+
+
+
