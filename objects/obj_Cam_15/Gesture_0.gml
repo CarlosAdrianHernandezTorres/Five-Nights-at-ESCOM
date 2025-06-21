@@ -4,6 +4,14 @@
 /// @DnDArgument : "var" "global.Cam15"
 if(global.Cam15 == 0)
 {
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 1CBBDE3C
+	/// @DnDParent : 0B580D2A
+	/// @DnDArgument : "expr" "15"
+	/// @DnDArgument : "var" "global.CamaraActiva"
+	global.CamaraActiva = 15;
+
 	/// @DnDAction : YoYo Games.Audio.Stop_Audio
 	/// @DnDVersion : 1
 	/// @DnDHash : 79F44545
@@ -19,6 +27,13 @@ if(global.Cam15 == 0)
 	/// @DnDArgument : "soundid" "snd_CamChng"
 	/// @DnDSaveInfo : "soundid" "snd_CamChng"
 	audio_play_sound(snd_CamChng, 0, 0, 1.0, undefined, 1.0);
+
+	/// @DnDAction : YoYo Games.Sequences.Sequence_Destroy
+	/// @DnDVersion : 1
+	/// @DnDHash : 4DE26754
+	/// @DnDParent : 0B580D2A
+	/// @DnDArgument : "var" "global.CamChng"
+	layer_sequence_destroy(global.CamChng);
 
 	/// @DnDAction : YoYo Games.Sequences.Sequence_Create
 	/// @DnDVersion : 1
@@ -282,6 +297,7 @@ if(global.Cam15 == 0)
 	/// @DnDApplyTo : {obj_Lugares}
 	/// @DnDParent : 0B580D2A
 	/// @DnDArgument : "spriteind" "spr_Cam15L"
+	/// @DnDSaveInfo : "spriteind" "spr_Cam15L"
 	with(obj_Lugares) {
 	sprite_index = spr_Cam15L;
 	image_index = 0;

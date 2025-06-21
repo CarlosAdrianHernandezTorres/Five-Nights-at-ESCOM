@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 57398A61
-/// @DnDInput : 30
+/// @DnDInput : 40
 /// @DnDArgument : "value" "1"
 /// @DnDArgument : "var" "Noche"
 /// @DnDArgument : "var_1" "Cam01"
@@ -33,6 +33,16 @@
 /// @DnDArgument : "var_27" "CDW"
 /// @DnDArgument : "var_28" "CambioCamara"
 /// @DnDArgument : "var_29" "secLaser"
+/// @DnDArgument : "var_30" "blockCam"
+/// @DnDArgument : "var_31" "PMMov"
+/// @DnDArgument : "var_32" "PMIA"
+/// @DnDArgument : "var_33" "ManMov"
+/// @DnDArgument : "var_34" "ManIA"
+/// @DnDArgument : "var_35" "PMPos"
+/// @DnDArgument : "var_36" "CamaraActiva"
+/// @DnDArgument : "var_37" "JSBy"
+/// @DnDArgument : "var_38" "video"
+/// @DnDArgument : "var_39" "Hora"
 global.Noche = 1;
 global.Cam01 = 0;
 global.Cam02 = 0;
@@ -63,3 +73,18 @@ global.CUP = 0;
 global.CDW = 0;
 global.CambioCamara = 0;
 global.secLaser = 0;
+global.blockCam = 0;
+global.PMMov = 0;
+global.PMIA = 0;
+global.ManMov = 0;
+global.ManIA = 0;
+global.PMPos = 0;
+global.CamaraActiva = 0;
+global.JSBy = 0;
+global.video = 0;
+global.Hora = 0;
+
+/// @DnDAction : YoYo Games.Random.Randomize
+/// @DnDVersion : 1
+/// @DnDHash : 1D0F7BE7
+randomize();

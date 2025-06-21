@@ -4,6 +4,23 @@
 /// @DnDArgument : "var" "global.Laser"
 if(global.Laser == 0)
 {
+	/// @DnDAction : YoYo Games.Audio.Stop_Audio
+	/// @DnDVersion : 1
+	/// @DnDHash : 45A21FE0
+	/// @DnDParent : 3E2ADB20
+	/// @DnDArgument : "soundid" "snd_Laser"
+	/// @DnDSaveInfo : "soundid" "snd_Laser"
+	audio_stop_sound(snd_Laser);
+
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 29C6600B
+	/// @DnDParent : 3E2ADB20
+	/// @DnDArgument : "soundid" "snd_Laser"
+	/// @DnDArgument : "loop" "1"
+	/// @DnDSaveInfo : "soundid" "snd_Laser"
+	audio_play_sound(snd_Laser, 0, 1, 1.0, undefined, 1.0);
+
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 046C75FD
@@ -29,9 +46,9 @@ if(global.Laser == 0)
 	/// @DnDArgument : "ypos" "380"
 	/// @DnDArgument : "var" "global.secLaser"
 	/// @DnDArgument : "sequenceid" "sqn_CLaserON"
-	/// @DnDArgument : "layer" ""CAMUPDWN""
+	/// @DnDArgument : "layer" ""Lasers""
 	/// @DnDSaveInfo : "sequenceid" "sqn_CLaserON"
-	global.secLaser = layer_sequence_create("CAMUPDWN", x-441, 380, sqn_CLaserON);
+	global.secLaser = layer_sequence_create("Lasers", x-441, 380, sqn_CLaserON);
 
 	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 	/// @DnDVersion : 1
@@ -46,6 +63,14 @@ if(global.Laser == 0)
 /// @DnDHash : 210A608E
 else
 {
+	/// @DnDAction : YoYo Games.Audio.Stop_Audio
+	/// @DnDVersion : 1
+	/// @DnDHash : 2A727394
+	/// @DnDParent : 210A608E
+	/// @DnDArgument : "soundid" "snd_Laser"
+	/// @DnDSaveInfo : "soundid" "snd_Laser"
+	audio_stop_sound(snd_Laser);
+
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 35531DCE
@@ -80,9 +105,9 @@ else
 	/// @DnDArgument : "ypos" "380"
 	/// @DnDArgument : "var" "global.secLaser"
 	/// @DnDArgument : "sequenceid" "sqn_CLaserOFF"
-	/// @DnDArgument : "layer" ""CAMUPDWN""
+	/// @DnDArgument : "layer" ""Lasers""
 	/// @DnDSaveInfo : "sequenceid" "sqn_CLaserOFF"
-	global.secLaser = layer_sequence_create("CAMUPDWN", x-441, 380, sqn_CLaserOFF);
+	global.secLaser = layer_sequence_create("Lasers", x-441, 380, sqn_CLaserOFF);
 
 	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 	/// @DnDVersion : 1

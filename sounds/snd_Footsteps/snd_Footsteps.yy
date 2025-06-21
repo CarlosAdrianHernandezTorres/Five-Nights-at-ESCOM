@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_Footsteps.ogg",
-  "duration": 7.878687,
+  "duration": 7.883729,
   "parent": {
     "name": "Efectos de Sonido",
     "path": "folders/Sonidos/Efectos de Sonido.yy",

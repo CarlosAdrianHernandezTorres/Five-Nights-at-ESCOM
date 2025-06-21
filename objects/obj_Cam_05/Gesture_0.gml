@@ -4,6 +4,14 @@
 /// @DnDArgument : "var" "global.Cam05"
 if(global.Cam05 == 0)
 {
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 04BE365B
+	/// @DnDParent : 0B580D2A
+	/// @DnDArgument : "expr" "5"
+	/// @DnDArgument : "var" "global.CamaraActiva"
+	global.CamaraActiva = 5;
+
 	/// @DnDAction : YoYo Games.Audio.Stop_Audio
 	/// @DnDVersion : 1
 	/// @DnDHash : 79F44545
@@ -19,6 +27,13 @@ if(global.Cam05 == 0)
 	/// @DnDArgument : "soundid" "snd_CamChng"
 	/// @DnDSaveInfo : "soundid" "snd_CamChng"
 	audio_play_sound(snd_CamChng, 0, 0, 1.0, undefined, 1.0);
+
+	/// @DnDAction : YoYo Games.Sequences.Sequence_Destroy
+	/// @DnDVersion : 1
+	/// @DnDHash : 08608020
+	/// @DnDParent : 0B580D2A
+	/// @DnDArgument : "var" "global.CamChng"
+	layer_sequence_destroy(global.CamChng);
 
 	/// @DnDAction : YoYo Games.Sequences.Sequence_Create
 	/// @DnDVersion : 1
