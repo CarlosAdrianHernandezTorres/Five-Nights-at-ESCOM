@@ -9,9 +9,9 @@ if(global.Hora == 8)
 	/// @DnDVersion : 1
 	/// @DnDHash : 4868743F
 	/// @DnDParent : 73B05938
-	/// @DnDArgument : "room" "MenuPrincipal"
-	/// @DnDSaveInfo : "room" "MenuPrincipal"
-	room_goto(MenuPrincipal);
+	/// @DnDArgument : "room" "Win"
+	/// @DnDSaveInfo : "room" "Win"
+	room_goto(Win);
 }
 
 /// @DnDAction : YoYo Games.Common.Else

@@ -19,6 +19,7 @@
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"CAMUPDWN","assets":[],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"CamaraEstatica","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_72FB9B41","properties":[],"isDnd":false,"objectId":{"name":"obj_static_camera","path":"objects/obj_static_camera/obj_static_camera.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":8.0,"y":936.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_125216EF","properties":[],"isDnd":false,"objectId":{"name":"obj_WinTimer","path":"objects/obj_WinTimer/obj_WinTimer.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":512.0,},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Cam18","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4BE1CEDB","properties":[],"isDnd":false,"objectId":{"name":"obj_Prismoso18","path":"objects/obj_Prismoso18/obj_Prismoso18.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":8.0,"y":936.0,},
@@ -135,6 +136,7 @@
     {"name":"inst_14FA575B","path":"rooms/Culturales1/Culturales1.yy",},
     {"name":"inst_762DABB8","path":"rooms/Culturales1/Culturales1.yy",},
     {"name":"inst_6AD1D9A8","path":"rooms/Culturales1/Culturales1.yy",},
+    {"name":"inst_125216EF","path":"rooms/Culturales1/Culturales1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
