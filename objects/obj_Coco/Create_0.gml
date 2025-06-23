@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 57398A61
-/// @DnDInput : 42
+/// @DnDInput : 46
 /// @DnDArgument : "value" "1"
 /// @DnDArgument : "var" "Noche"
 /// @DnDArgument : "var_1" "Cam01"
@@ -45,6 +45,10 @@
 /// @DnDArgument : "var_39" "Hora"
 /// @DnDArgument : "var_40" "SalirTY"
 /// @DnDArgument : "var_41" "SalirTY2"
+/// @DnDArgument : "var_42" "Bateria"
+/// @DnDArgument : "var_43" "BatLaser"
+/// @DnDArgument : "var_44" "BatCamara"
+/// @DnDArgument : "var_45" "BatConteo"
 global.Noche = 1;
 global.Cam01 = 0;
 global.Cam02 = 0;
@@ -87,6 +91,10 @@ global.video = 0;
 global.Hora = 0;
 global.SalirTY = 0;
 global.SalirTY2 = 0;
+global.Bateria = 0;
+global.BatLaser = 0;
+global.BatCamara = 0;
+global.BatConteo = 0;
 
 /// @DnDAction : YoYo Games.Random.Randomize
 /// @DnDVersion : 1

@@ -3,7 +3,7 @@
 /// @DnDHash : 1051EF92
 /// @DnDInput : 6
 /// @DnDArgument : "expr" "1"
-/// @DnDArgument : "expr_1" "300"
+/// @DnDArgument : "expr_1" "150"
 /// @DnDArgument : "expr_2" "18"
 /// @DnDArgument : "expr_3" "20"
 /// @DnDArgument : "var" "global.PMMov"
@@ -13,7 +13,7 @@
 /// @DnDArgument : "var_4" "PMComp"
 /// @DnDArgument : "var_5" "PMProb"
 global.PMMov = 1;
-PMTiempo = 300;
+PMTiempo = 150;
 global.PMPos = 18;
 global.PMIA = 20;
 PMComp = 0;
