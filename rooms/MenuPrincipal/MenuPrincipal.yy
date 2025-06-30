@@ -24,6 +24,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_15A707C","properties":[],"isDnd":false,"objectId":{"name":"obj_Opciones","path":"objects/obj_Opciones/obj_Opciones.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":true,"inheritItemSettings":false,"x":74.0,"y":440.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1A5228E8","properties":[],"isDnd":false,"objectId":{"name":"obj_Extras","path":"objects/obj_Extras/obj_Extras.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":true,"inheritItemSettings":false,"x":74.0,"y":500.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_EB594A4","properties":[],"isDnd":false,"objectId":{"name":"obj_Salir","path":"objects/obj_Salir/obj_Salir.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":74.0,"y":560.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2754932A","properties":[],"isDnd":false,"objectId":{"name":"obj_Derecha","path":"objects/obj_Derecha/obj_Derecha.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":608.0,"y":96.0,},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"AnimacionGlitch","assets":[],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"InstanciaGlitch","instances":[
@@ -48,6 +49,7 @@
     {"name":"inst_EB594A4","path":"rooms/MenuPrincipal/MenuPrincipal.yy",},
     {"name":"inst_509BC8EB","path":"rooms/MenuPrincipal/MenuPrincipal.yy",},
     {"name":"inst_2BB70A8F","path":"rooms/MenuPrincipal/MenuPrincipal.yy",},
+    {"name":"inst_2754932A","path":"rooms/MenuPrincipal/MenuPrincipal.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
