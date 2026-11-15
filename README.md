@@ -1,5 +1,7 @@
 <p align="center">
   <img src="docs/capturas/readme/01-grafico-ficha-play.png" alt="Five Nights at ESCOM" width="720">
+
+
 </p>
 
 # Five Nights at ESCOM
@@ -9,6 +11,8 @@ Juego de terror y supervivencia hecho en **GameMaker** y ambientado en la ESCOM 
 Proyecto original (2025) de **Carlos Adrián Hernández Torres**. Este fork lo continúa **Gabriel Hurtado Avilés** ([@gabrielhuav](https://github.com/gabrielhuav)), con el permiso del autor, como proyecto de la materia *Aplicaciones Móviles Nativas* (ESCOM, grupo 7CV4). Los alumnos agregan funciones mediante Pull Requests.
 
 ## Google Play
+
+**PR #6 y PR #7 integrados.** Opciones, pausa táctil y correcciones de ú/audio están en `main`; CODEOWNERS requiere revisión de @gabrielhuav. Android **0.1.10 (1010)** está compilado y cargado como cambio pendiente de revisión en Alpha. La versión disponible sigue siendo **0.1.1 (1001)**. [Informe y límites de la actualización](docs/publicacion/ACTUALIZACION_0.1.10_2026-11-14.md).
 
 El juego está en una **prueba cerrada** (pista Alpha, México) y sólo pueden instalarlo las cuentas inscritas en la lista de testers del curso.
 
@@ -27,7 +31,9 @@ Cada alumno acepta la invitación e instala el juego con la **misma cuenta de Go
 |---|---|---|---|
 | 0.1.0 (1000) | [`5808e2c`](https://github.com/gabrielhuav/Five-Nights-at-ESCOM/commit/5808e2cb625a4474795ee57045965a12ba40d076) | Primera versión Android: Noche 1, aviso de privacidad sin conexión, ícono rojo de pixel art y permisos mínimos | Enviada el 24 oct 2026; disponible en la prueba cerrada |
 | 0.1.1 (1001) | [`0adaaaa`](https://github.com/gabrielhuav/Five-Nights-at-ESCOM/commit/0adaaaab73c1bdc666d347904d1fdbdf3878a52c) | Noche 2 con el Intruso, guardado de progreso y botón **Continuar** | Enviada a revisión el 7 nov 2026; el propietario informó su lanzamiento el 8 nov 2026 |
-| Desarrollo (`main`) | — | 0.1.1 + menú de pausa, apagón por batería y atajo de noche ([PR #2](https://github.com/gabrielhuav/Five-Nights-at-ESCOM/pull/2)); en revisión: panel de Opciones y pausa táctil ([PR #6](https://github.com/gabrielhuav/Five-Nights-at-ESCOM/pull/6)) | Sin compilar ni publicar |
+| Desarrollo (`main`) | — | 0.1.1 + menú de pausa, apagón por batería y atajo de noche ([PR #2](https://github.com/gabrielhuav/Five-Nights-at-ESCOM/pull/2)); panel de Opciones y pausa táctil integrado ([PR #6](https://github.com/gabrielhuav/Five-Nights-at-ESCOM/pull/6)) | PR #6 probado parcialmente en Windows/Android; sin publicar |
+
+**Estado al 14 nov 2026:** Play sigue en **0.1.1 (1001) Activo**, prueba cerrada. PR #2/#6 son posteriores. Las correcciones del PR #6 están compiladas y probadas en APK **0.1.9 (1009)**: ú y volumen de salida de créditos, sin ajuste de sincronización. El PR #6 ya fue fusionado en `ae1037c`, con ambas comprobaciones aprobadas. PR #7 añadió CODEOWNERS en `c267873`. La actualización **0.1.10 (1010)** está guardada en Console, sin enviar a revisión ni publicar. [Resultados y límites de las pruebas](docs/pruebas-pr-6-2026-11-14.md).
 
 Requiere Android 7.0 (API 24) o posterior; objetivo API 36, ARM64. No tiene anuncios, cuentas, compras ni permisos de red: el progreso se guarda sólo en el dispositivo (`progreso.ini`).
 
