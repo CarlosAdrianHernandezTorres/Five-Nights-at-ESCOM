@@ -1,6 +1,6 @@
 # Actualización 0.1.10 (1010) · Opciones y pausa táctil
 
-Registro real del 14 de noviembre de 2026, Ciudad de México. **Estado: cambio guardado en Play Console, pendiente de autorización y envío a revisión. No publicado.** La pista sigue siendo prueba cerrada Alpha, no producción abierta.
+Registro real del 14 de noviembre de 2026, Ciudad de México. **Estado vigente: 0.1.10 (1010) PUBLICADA en la prueba cerrada Alpha. Envío ID 3: enviado el 14 nov 2026 a las 20:35 y publicado a las 20:42 (Ciudad de México), confirmado directamente en Play Console. No es producción abierta.** La pista sigue siendo prueba cerrada Alpha, no producción abierta.
 
 ## 1. Punto de partida y alcance
 
@@ -57,7 +57,7 @@ Siguen sin certificarse victoria natural, agotamiento completo de batería/apag�
 6. Mantener100% del segmento **Alpha existente** y pulsar **Guardar**. El diálogo confirmó «Se guardó tu cambio» e indicó ir al resumen para enviarlo después a revisión.
 7. Pulsar **Ir al resumen**. Se verificó **Cambios que aún no se enviaron a revisión**, un cambio para0.1.10/1010, «Iniciar lanzamiento completo» en Alpha. Captura016. Comenzaron verificaciones rápidas (estimación inicial hasta14min); esto no es el envío ni una aprobación.
 
-## 7. Punto de autorización pendiente
+## 7. Punto previo a la autorización (historial de preparación)
 
 No se pulsó **Enviar 1 cambio a revisión**. La publicación administrada está **desactivada**, comprobada directamente: si el propietario autoriza el envío y Google lo aprueba, la actualización puede activarse automáticamente para el segmento Alpha existente. No se garantiza cuándo ni si Google aprobará. No se tocó la política web, ficha, cuenta, países ni lista de verificadores.
 
@@ -71,3 +71,30 @@ Capturas PNG numeradas, completas y máximo1600px de ancho en `capturas`; JPG or
 ## 9. Verificaciones rápidas completadas · cierre previo al envío
 
 Al volver a consultar el resumen, Play mostró **«Ya se pueden enviar tus cambios a revisión»**. Se guardó la captura024. Las verificaciones rápidas terminaron; continúa un único cambio pendiente de envío para Alpha0.1.10/1010. Esto no es aprobación de Google ni publicación. No se pulsó Enviar. PR #8 contiene versión y contexto; ambas comprobaciones requeridas aprobaron y la regla de main mantiene el PR bloqueado hasta autorización del propietario.
+
+
+## 10. Autorización, integración y envío realizados
+
+El propietario respondió expresamente: **«Sí, incorporar PR #8 y enviar a revisión»**, tras conocer las dos advertencias, los límites de QA y la posible activación automática de Alpha. No se volvió a pedir aprobación para esa misma acción.
+
+1. Se comprobó PR #8 con cabeza `25c492b20f2aea1b3e1e045853782ac6e50583f2`, base main y comprobaciones requeridas aprobadas. Se fusionó con verificación de esa cabeza, por squash: `dcfffa824b09d1ecdc42e2da3258a515bb17b564`. No se cambió la protección de main. La comparación con el commit de compilación `a7bee92` sólo muestra documentación; el paquete cargado sigue siendo exactamente el AAB validado, no se recompiló ni sustituyó.
+2. En Descripción general de la publicación se comprobó un único cambio para **Alpha0.1.10/1010**, verificaciones rápidas completadas y publicación administrada desactivada. Se pulsó **Enviar 1 cambio a revisión**.
+3. El diálogo **«¿Confirmas que quieres enviar 1 cambio a revisión?»** avisó que Google revisaría el cambio y que el plazo puede superar siete días. Se guardó captura025 y, con la autorización expresa ya recibida, se pulsó **Envía cambios a revisión**.
+4. Console pasó a **Cambios en la etapa de revisión** y ejecutó una última verificación rápida de menos de un minuto. Captura026. Este estado transitorio no se confundió con revisión terminada.
+5. Se abrió **Actividad de envío**. La fila confirmó **ID3, 14nov2026, 8:35p.m., Prueba cerrada - Alpha, En revisión**. Captura027. En Ciudad de México corresponde a **20:35 del14nov2026**.
+6. Se abrió **Ver detalles del envío** en esa fila. El detalle confirmó un cambio: **0.1.10 (1010) · Opciones y pausa táctil**, **Iniciar lanzamiento completo**, ID3, fuente Play Console, misma fecha y estado **En revisión**. Captura028. Enlace: https://play.google.com/console/u/0/developers/7500976678857575574/app/4976238243139466166/publishing/submission-activity/3/details
+
+**Resultado real:** envío3 recibido y En revisión. No se observó aprobación ni publicación de0.1.10. La revisión y su plazo dependen de Google; la publicación administrada sigue desactivada, de modo que su aprobación podría activar automáticamente el segmento Alpha existente. No se modificaron cuenta, países, verificadores, ficha, política ni producción abierta.
+
+Se conserva la presentación anterior `PREVIO_ENVIO.pptx` y se creó una entrega separada `Actualizar_Five_Nights_at_ESCOM_GameMaker_0.1.10_ENVIO_3.pptx`, con los pasos reales de confirmación y comprobación del envío. Los apartados1–9 son el historial de preparación; este apartado y el encabezado prevalecen para el estado actual. Queda comprobar aprobación y lanzamiento cuando ocurra, sin inferirlos de este envío.
+
+
+## 11. Publicación comprobada directamente · 14 nov 2026
+
+A petición del propietario («me parece que ya pasó la revisión»), se volvió a cargar el detalle del envío3. Play Console mostró **Estado: Publicado · El nov14,2026,8:42p.m.** para el único cambio de **Prueba cerrada - Alpha**, **0.1.10 (1010) · Opciones y pausa táctil**. La notificación de Console también indicó que se publicó la actualización y advirtió que la visibilidad puede tardar un poco más.
+
+Se cerró únicamente el panel de notificaciones, sin borrar notificaciones, y se guardó la captura completa **029_envio_3_publicado.png** (máximo1600px). El registro conserva: envío3 a las20:35, publicación a las **20:42 del14nov2026**, Ciudad de México. La comprobación directa se realizó a las23:47 del mismo día. No se pulsó un botón de publicación adicional ni se cambió ningún ajuste: la publicación administrada estaba desactivada y la versión pasó de revisión a publicada.
+
+**Resultado final:** la0.1.10/1010 ya pasó revisión y está publicada en la **prueba cerrada Alpha**. No se lanzó en producción abierta ni se ampliaron países o verificadores. No se comprobó una descarga o actualización nueva desde Play en un dispositivo después de este lanzamiento; la confirmación procede del estado Publicado de Console, no de una instalación inferida.
+
+Se conservan las entregas PREVIO_ENVIO y ENVIO_3 como historial. Se creó una presentación separada `Actualizar_Five_Nights_at_ESCOM_GameMaker_0.1.10_PUBLICADA.pptx`, añadiendo la comprobación real de publicación. Este apartado y el encabezado sustituyen los estados previos En revisión o pendiente de envío. No cambian las pruebas realizadas ni sus límites.
