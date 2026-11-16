@@ -33,6 +33,9 @@ if (global.game_paused) {
             global.game_paused = false;
             instance_activate_all();
             
+            // Detener toda la música de la noche antes de regresar al lobby
+            audio_stop_all();
+            
             // Ir al menú principal (asegúrate de usar el nombre exacto de tu sala de menú)
             if (room_exists(MenuPrincipal)) {
                 room_goto(MenuPrincipal);
