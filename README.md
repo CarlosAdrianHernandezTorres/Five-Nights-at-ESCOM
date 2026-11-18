@@ -1,5 +1,7 @@
 <p align="center">
   <img src="docs/capturas/readme/01-grafico-ficha-play.png" alt="Five Nights at ESCOM" width="720">
+
+
 </p>
 
 # Five Nights at ESCOM
@@ -9,6 +11,8 @@ Juego de terror y supervivencia hecho en **GameMaker** y ambientado en la ESCOM 
 Proyecto original (2025) de **Carlos Adrián Hernández Torres**. Este fork lo continúa **Gabriel Hurtado Avilés** ([@gabrielhuav](https://github.com/gabrielhuav)), con el permiso del autor, como proyecto de la materia *Aplicaciones Móviles Nativas* (ESCOM, grupo 7CV4). Los alumnos agregan funciones mediante Pull Requests.
 
 ## Google Play
+
+**Estado vigente: 0.1.10 (1010) PUBLICADA en la prueba cerrada Alpha. Envío ID 3: enviado el 14 nov 2026 a las 20:35 y publicado a las 20:42 (Ciudad de México), confirmado directamente en Play Console. No es producción abierta.** [Registro detallado](docs/publicacion/ACTUALIZACION_0.1.10_2026-11-14.md).
 
 El juego está en una **prueba cerrada** (pista Alpha, México) y sólo pueden instalarlo las cuentas inscritas en la lista de testers del curso.
 
@@ -27,7 +31,10 @@ Cada alumno acepta la invitación e instala el juego con la **misma cuenta de Go
 |---|---|---|---|
 | 0.1.0 (1000) | [`5808e2c`](https://github.com/gabrielhuav/Five-Nights-at-ESCOM/commit/5808e2cb625a4474795ee57045965a12ba40d076) | Primera versión Android: Noche 1, aviso de privacidad sin conexión, ícono rojo de pixel art y permisos mínimos | Enviada el 24 oct 2026; disponible en la prueba cerrada |
 | 0.1.1 (1001) | [`0adaaaa`](https://github.com/gabrielhuav/Five-Nights-at-ESCOM/commit/0adaaaab73c1bdc666d347904d1fdbdf3878a52c) | Noche 2 con el Intruso, guardado de progreso y botón **Continuar** | Enviada a revisión el 7 nov 2026; el propietario informó su lanzamiento el 8 nov 2026 |
-| Desarrollo (`main`) | — | 0.1.1 + menú de pausa, apagón por batería y atajo de noche ([PR #2](https://github.com/gabrielhuav/Five-Nights-at-ESCOM/pull/2)) | Sin compilar ni publicar |
+| 0.1.10 (1010) | [`dcfffa8`](https://github.com/gabrielhuav/Five-Nights-at-ESCOM/commit/dcfffa824b09d1ecdc42e2da3258a515bb17b564) | Opciones, volumen persistente, borrado con confirmación, pausa táctil y correcciones de texto/audio | Publicada en Alpha el 14 nov 2026, 20:42 (Ciudad de México), envío3; confirmado en Console |
+| Desarrollo (`main`) | — | 0.1.1 + menú de pausa, apagón por batería y atajo de noche ([PR #2](https://github.com/gabrielhuav/Five-Nights-at-ESCOM/pull/2)); panel de Opciones y pausa táctil integrado ([PR #6](https://github.com/gabrielhuav/Five-Nights-at-ESCOM/pull/6)) | Integrado y publicado en 0.1.10; pruebas y límites documentados |
+
+**Estado al 14 nov 2026:** la **0.1.10 (1010)** ya está publicada en la prueba cerrada Alpha, confirmado directamente en Console. Incluye PR #2 y #6, con ú y audio corregidos y sin ajuste de sincronización. [Resultados y límites de las pruebas](docs/pruebas-pr-6-2026-11-14.md).
 
 Requiere Android 7.0 (API 24) o posterior; objetivo API 36, ARM64. No tiene anuncios, cuentas, compras ni permisos de red: el progreso se guarda sólo en el dispositivo (`progreso.ini`).
 
@@ -60,7 +67,7 @@ Todas son capturas reales del juego: Galaxy S22+ durante la prueba de la 0.1.1 (
 | Abrir o cerrar cámaras | Barra azul inferior | — |
 | Cambiar de cámara | Botones CAM 01–19 | — |
 | Láser | Botón del láser | — |
-| Pausar o reanudar | Pendiente: aún no hay control táctil | ESC o P |
+| Pausar o reanudar | Botón de pausa (arriba, a la izquierda del centro) y «Reanudar» | ESC o P |
 | Salir al menú desde la pausa | Botón «Salir al Menú» | — |
 | Completar la noche (atajo de prueba) | — | Ctrl + Shift + N |
 

@@ -1,5 +1,35 @@
 # Actualizaciones de Five Nights at ESCOM en Google Play
 
+**Estado vigente: 0.1.10 (1010) PUBLICADA en la prueba cerrada Alpha. Envío ID 3: enviado el 14 nov 2026 a las 20:35 y publicado a las 20:42 (Ciudad de México), confirmado directamente en Play Console. No es producción abierta.** [Comprobante e historial](ACTUALIZACION_0.1.10_2026-11-14.md).
+
+## Historial de preparación previo al envío · 14 nov 2026
+
+PR #6 **fusionado por el propietario** (`ae1037c`); PR #7 **fusionado tras autorización expresa** (`c267873`). La lógica del juego coincide con `6b76378`, probado en APK1009; sólo se añadió CODEOWNERS. Main está protegida mediante reglas27289829: PR, aprobación del propietario, revisión nueva tras cambios y ambas comprobaciones obligatorias. La excepción del único administrador sólo permite actuar mediante PR.
+
+La actualización **0.1.10 (1010)** se prepara en `codex/play-options-update`, commit `a7bee92` (cambio de versión exclusivamente). AAB compilado con GameMaker:87,105,199bytes; SHA256 `9E201C01EDBA0D3B04FE9FA51F55B3572CFAFDC734C1387A12DA8A8CFAEC39CD`. Bundletool valida el paquete; firma original confirmada, min24/target36, ARM64 y PAGE_ALIGNMENT_16K. Se está preparando el borrador Alpha; **no se ha enviado a revisión ni publicado**. Publicación administrada desactivada: pedir aprobación final explicando la posible activación automática al aprobar Google.
+
+Evidencia y nueva documentación: `C:\Users\gabri\Downloads\1151055 Administracion\Publicacion Five Nights at ESCOM\Actualizacion Opciones y Pausa 2026-11-14`.
+
+**Carga completada:** Console reconoció 1010/0.1.10 y guardó un cambio de Alpha pendiente de envío a revisión. Dos advertencias de diagnóstico, sin errores bloqueantes; verificaciones rápidas completadas: Console indica que los cambios ya se pueden enviar. No se pulsó «Enviar 1 cambio a revisión». Véase [el informe detallado de 0.1.10](ACTUALIZACION_0.1.10_2026-11-14.md), que documenta artefactos, pruebas, capturas y límites.
+
+Este estado sustituye los pendientes de integración de los bloques históricos siguientes.
+
+## Estado comprobado antes de integrar · 14 de noviembre de 2026
+
+**Play:** la consulta directa de «Todos los paquetes de aplicación» mostró **0.1.1 (1001) Activo** y 0.1.0 (1000) Inactivo; sólo dos paquetes. La 0.1.1 procede de `0adaaaa`, incluye Noche 2, Intruso, guardado y Continuar, y está en la prueba cerrada Alpha. No acredita producción abierta. Envío histórico: 7 nov; lanzamiento comunicado por el propietario: 8 nov; comprobación directa: 14 nov.
+
+**Desarrollo posterior:** `main` contiene PR #2 (pausa, apagón, atajo). PR #6, base `7c094f8`, añade Opciones y pausa táctil; su destino `main` y estado sin conflictos se comprobaron directamente. Sus funciones no están en Play. La fuente del PR está en el fork de TheMike54; los cambios propios deben conservarse en el fork autorizado de gabrielhuav.
+
+**Última compilación local:** APK **0.1.9 (1009)**, misma firma y paquete, con ú y audio corregidos, sin ajuste de sincronización ni instrumentación. Probado en FiveNightsESCOM_Test; el APK de diagnóstico1008 aprobó33 comprobaciones de ganancia. Los1002–1009 son compilaciones locales distintas; no reutilizar sus códigos. Consultar el máximo de Console antes de otro paquete y considerar también los códigos locales consumidos.
+
+El propietario aclaró que veía el juego normalmente en el S22+: las capturas negras no prueban un defecto de pantalla física. A petición suya se retiró todo el ajuste de sincronización de 1006 y se repitieron las pruebas exclusivamente en emulador. El [informe de pruebas](../pruebas-pr-6-2026-11-14.md) distingue resultados actuales de intentos descartados y pruebas históricas.
+
+**No hay AAB nuevo, carga, envío a revisión ni publicación.** Esta autorización sólo cubre preparación y pruebas. La integración del PR y la preparación de una publicación son decisiones distintas; siguen pendientes la QA general, victoria natural, apagón, recorrido completo de Intruso y medición de audio.
+
+Informe y presentación del lanzamiento ya realizado: `C:\Users\gabri\Downloads\1151055 Administracion\Publicacion Five Nights at ESCOM\Actualizacion Noche 2`. Conservar esos originales como historial.
+
+Los apartados siguientes describen estados históricos de preparación; sus pendientes no sustituyen el estado vigente anterior.
+
 ## Estado actual (8 de noviembre de 2026)
 
 - **0.1.1 (código 1001)**, commit `0adaaaa`, rama `prepare/android-night2-update`: Noche 2, Intruso y Continuar. Envío 2 a revisión el 7 nov 2026, 12:43 (Ciudad de México), pista cerrada Alpha, México, lista 26-O Y 2027-1 (184 cuentas). El propietario informó el 8 nov que la actualización ya se lanzó; la IA no pudo verificarlo en Console (el navegador integrado no tenía sesión).
