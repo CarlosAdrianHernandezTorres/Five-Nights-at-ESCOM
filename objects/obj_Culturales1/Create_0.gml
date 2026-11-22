@@ -1,3 +1,4 @@
+global.EnergyBlackout = false;
 /// @DnDAction : YoYo Games.Random.Randomize
 /// @DnDVersion : 1
 /// @DnDHash : 07909E33
@@ -34,4 +35,9 @@ global.Camara = view_get_camera(0);
 /// @DnDArgument : "loop" "1"
 /// @DnDArgument : "gain" "0.6"
 /// @DnDSaveInfo : "soundid" "snd_BKMusic"
-audio_play_sound(snd_BKMusic, 0, 1, 0.6, undefined, 1.0);
+if (audio_is_playing(snd_MM)) {
+    audio_stop_sound(snd_MM);
+}
+if (!audio_is_playing(snd_BKMusic)) {
+    audio_play_sound(snd_BKMusic, 0, 1, 0.6, undefined, 1.0);
+}
