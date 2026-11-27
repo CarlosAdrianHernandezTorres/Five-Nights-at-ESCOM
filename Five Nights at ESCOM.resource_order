@@ -49,6 +49,8 @@
     {"name":"obj_Opciones","order":5,"path":"objects/obj_Opciones/obj_Opciones.yy",},
     {"name":"obj_pauseManager","order":13,"path":"objects/obj_pauseManager/obj_pauseManager.yy",},
     {"name":"obj_Periodico","order":4,"path":"objects/obj_Periodico/obj_Periodico.yy",},
+    {"name":"obj_PilaCamara","order":1,"path":"objects/obj_PilaCamara/obj_PilaCamara.yy",},
+    {"name":"spr_PilaCamara","order":1,"path":"sprites/spr_PilaCamara/spr_PilaCamara.yy",},
     {"name":"obj_PMJS","order":1,"path":"objects/obj_PMJS/obj_PMJS.yy",},
     {"name":"obj_Prismoso10","order":2,"path":"objects/obj_Prismoso10/obj_Prismoso10.yy",},
     {"name":"obj_Prismoso12","order":3,"path":"objects/obj_Prismoso12/obj_Prismoso12.yy",},

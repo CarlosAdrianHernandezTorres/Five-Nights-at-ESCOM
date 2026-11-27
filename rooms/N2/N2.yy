@@ -61,6 +61,7 @@
     {"name":"inst_2D47A63D_N2","path":"rooms/N2/N2.yy",},
     {"name":"inst_B5CD34_N2","path":"rooms/N2/N2.yy",},
     {"name":"inst_pause_N2","path":"rooms/N2/N2.yy",},
+    {"name":"inst_PilaCamara_N2","path":"rooms/N2/N2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -107,6 +108,7 @@
       ],"layers":[],"name":"Cam09","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Cam01","depth":1000,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_2F1E54FE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2F1E54FE","objectId":{"name":"obj_Intruso","path":"objects/obj_Intruso/obj_Intruso.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":8.0,"y":936.0,},
+        {"$GMRInstance":"v4","%Name":"inst_PilaCamara_N2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_PilaCamara_N2","objectId":{"name":"obj_PilaCamara","path":"objects/obj_PilaCamara/obj_PilaCamara.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":8.0,"y":936.0,},
       ],"layers":[],"name":"Cam01","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Puerta","depth":1100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_30F41D56_N2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_30F41D56_N2","objectId":{"name":"obj_CPuerta","path":"objects/obj_CPuerta/obj_CPuerta.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":-160.0,},

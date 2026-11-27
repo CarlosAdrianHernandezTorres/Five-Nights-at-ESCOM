@@ -190,6 +190,8 @@
     {"id":{"name":"obj_Opciones","path":"objects/obj_Opciones/obj_Opciones.yy",},},
     {"id":{"name":"obj_pauseManager","path":"objects/obj_pauseManager/obj_pauseManager.yy",},},
     {"id":{"name":"obj_Periodico","path":"objects/obj_Periodico/obj_Periodico.yy",},},
+    {"id":{"name":"obj_PilaCamara","path":"objects/obj_PilaCamara/obj_PilaCamara.yy",},},
+    {"id":{"name":"spr_PilaCamara","path":"sprites/spr_PilaCamara/spr_PilaCamara.yy",},},
     {"id":{"name":"obj_PM","path":"objects/obj_PM/obj_PM.yy",},},
     {"id":{"name":"obj_PMJS","path":"objects/obj_PMJS/obj_PMJS.yy",},},
     {"id":{"name":"obj_Prismoso10","path":"objects/obj_Prismoso10/obj_Prismoso10.yy",},},
